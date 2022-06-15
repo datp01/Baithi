@@ -15,6 +15,6 @@ public class Flight {
         return number;
     }
     public void display(){
-        
+        System.out.println(getNumber() + "," + getDestination() );
     }
 }
